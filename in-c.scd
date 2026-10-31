@@ -24,3 +24,5 @@ s.waitForBoot {
     ).play;
 };
 )
+
+~inCPlayer.stop;

@@ -36,6 +36,3 @@ s.waitForBoot {
 };
 )
 ```
-
-The `Rest()` entries in `midinote` make the corresponding events silent.
-Stop playback with `~inCPlayer.stop;`.

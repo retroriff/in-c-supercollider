@@ -300,4 +300,6 @@ the printed score uses scientific pitch notation, where that pitch is C4.
         dur: [0.25, 0.25]
     )
 ];
+
+"❇️ In C score loaded into ~inCScore dictionary.";
 )
