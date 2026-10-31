@@ -15,18 +15,18 @@ From a `.scd` file in this directory:
 ```supercollider
 "lib/score.scd".loadRelative;
 
-~inCScore[17][\midinote]; // MIDI pitches and rests
-~inCScore[17][\dur];      // Matching durations
-~inCScore[17][\note];     // Matching symbolic spellings
+~inCScore[1][\midinote]; // MIDI pitches and rests
+~inCScore[1][\dur];      // Matching durations
+~inCScore[1][\note];     // Matching symbolic spellings
 ```
 
-To play cell 17 with SuperCollider's standard `Pbind` and default synth:
+To play cell 1 with SuperCollider's standard `Pbind` and default synth:
 
 ```supercollider
 (
 "lib/score.scd".loadRelative;
 s.waitForBoot {
-    var cell = ~inCScore[17];
+    var cell = ~inCScore[1];
 
     ~inCPlayer = Pbind(
         \instrument, \default,
