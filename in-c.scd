@@ -12,7 +12,7 @@
 */
 
 (
-"lib/score.scd".loadRelative;
+"lib/score.scd".loadRelative.last;
 
 s.waitForBoot {
     var cell = ~inCScore[1];
